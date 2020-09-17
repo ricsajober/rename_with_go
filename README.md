@@ -13,11 +13,11 @@ The application would receive an input from the user in the form of the keys.txt
 
 ## Language choice
 
-This issue is to complicated to simply solve with a batch-file. Therefor we would need to create an application.  
-The languages we can use for this application are: c++, java, Python and Go.
+Go languages can be used for many different applications, just like Python. One of these usage is scripting; automation.
+This is what we need to make the application.
 
-Applications written with c++ are usually slow to compile and the language is complex. Java is very dificult to set-up and use (and also not the easiest language). Pyhton is a lot easier in use, but does not have type safety, it is also relatively slow compared to c++ and java.
+Laurens has previously made a scripting application with Go language for a customer to receive specific files from the EFP. I have done some research into Go because I wanted to know why he used Go for that tool instead of Python (we build our gxp cloud application with Python, so he knew that language, so there had to be a reason why he chose another language).
+I found that Python is very slow when executing, and has typing issues. Go language has solved both these issues, so it is faster (which is good as we would need to change a lot of files) and there would be less issues with types.
+I would also need just as much time to learn scripting with Python as I would need to learn scripting with Go.
 
-Go is supposed to solve the issues that the other languages have. Also there was an application made previously with the Go Language (by Laurens) which was used to extract certain files from the EFP based on user-input. For this application we are able to re-use some code from that application.
-
-Therefor we would choose the Go language. Personally I have seen all four languages before, and worked with them. But I would still need to learn a bit to actually create this application
+This is why I choose Go for this application.
